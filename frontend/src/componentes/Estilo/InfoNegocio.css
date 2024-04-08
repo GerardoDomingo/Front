@@ -1,0 +1,49 @@
+/* Plantilla.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+}
+
+.col-md-6 {
+    flex: 0 0 50%; /* Divide la fila en dos columnas del mismo ancho */
+    padding: 0 10px;
+}
+
+.politicas {
+    margin-top: 30px;
+}
+
+.politicas h3 {
+    margin-bottom: 10px;
+}
+
+.politicas ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.politicas li {
+    margin-bottom: 5px;
+}

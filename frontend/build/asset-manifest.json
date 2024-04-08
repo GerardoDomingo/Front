@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e411a7b8.css",
+    "main.js": "/static/js/main.c35e2443.js",
+    "static/media/AgregarUsuario.png": "/static/media/AgregarUsuario.592aedabd6b3e14cc365.png",
+    "static/media/cortina-luz-solar.jpg": "/static/media/cortina-luz-solar.57eaef211629324854cd.jpg",
+    "static/media/usuario.jpg": "/static/media/usuario.7f865f558cc069778fef.jpg",
+    "static/media/panaderia2.jpg": "/static/media/panaderia2.89e747805195055139ff.jpg",
+    "static/media/CORTINA ABIERTA.jpg": "/static/media/CORTINA ABIERTA.2add2311387e70c6d243.jpg",
+    "static/media/CORTINA CERRADA.jpg": "/static/media/CORTINA CERRADA.aab2108c6cd623ecd632.jpg",
+    "static/media/Logo_CortiMundo_blanco.png": "/static/media/Logo_CortiMundo_blanco.f9bab64c7c42c692d410.png",
+    "index.html": "/index.html",
+    "main.e411a7b8.css.map": "/static/css/main.e411a7b8.css.map",
+    "main.c35e2443.js.map": "/static/js/main.c35e2443.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e411a7b8.css",
+    "static/js/main.c35e2443.js"
+  ]
+}

@@ -1,0 +1,76 @@
+.app {
+    text-align: center;
+  }
+  
+  .app-header {
+    background-color: #f7d967;
+    padding: 20px;
+    font-size: 1.5em;
+  }
+  
+  .main-control h1 {
+    color: #000000;
+    font-size: 2em;
+  }
+  
+  .curtain-status {
+    padding: 10px;
+    font-size: 1.5em;
+  }
+  
+  .curtain-status.open {
+    color: blue;
+  }
+  
+  .curtain-status.closed {
+    color: rgb(255, 37, 37);
+  }
+  
+  .curtain-toggle {
+    background-color: green;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1.5em;
+    margin: 20px 0;
+    cursor: pointer;
+  }
+  
+  .curtain-toggle:focus {
+    outline: none;
+  }
+  
+  .temperature {
+    margin: 20px 0;
+    font-size: 1.5em;
+  }
+  
+  .temp-value {
+    font-weight: bold;
+  }
+  
+  .action-history {
+    margin-top: 50px;
+    text-align: left;
+    color: #000000;
+  }
+
+  footer{
+    background-color: rgb(254, 254, 254);
+  }
+  
+  .tarjeta {
+    margin-top: 2%;
+    max-width: 600px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #fff;
+  }
+
+  #imagencortinaAbierta{
+   width: 300px;
+   height: 400px;
+  }

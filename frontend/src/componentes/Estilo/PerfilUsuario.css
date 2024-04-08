@@ -1,0 +1,46 @@
+/* PerfilUsuario.css */
+.perfil-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    max-width: 600px;
+    margin-top: 20px;
+  }
+  
+  .tarjeta {
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .imagen-container {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 20px;
+  }
+  
+  .imagen-perfil {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .nombre-usuario {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .informacion-usuario {
+    margin: 10px 0 0;
+    font-size: 16px;
+    color: #666;
+  }
+  

@@ -1,0 +1,170 @@
+ /* Estilo para el menú y submenú */
+ * {
+	margin: 0;
+	padding: 0;
+}
+.principal{
+	width: auto;
+}
+header {
+	width: auto;
+	height: 11vh;
+	background: #3f3d3d;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+header #main-menu {
+	margin-top: 1pc;
+	background: #4e4b48;
+	float: left;
+	height: 60px;
+	line-height: 30px;
+	width: auto;
+	
+}
+
+header nav#menu-area {
+	margin: 0 auto;
+	padding: 0 15px;
+	position: relative;
+	width: auto;
+}
+
+header nav#menu-area ul li {
+	display: auto;
+	float: left;
+	position: relative;
+	font-size: 15px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 170px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+header nav#menu-area ul li a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	line-height: 60px;
+}
+
+header nav#menu-area ul li:hover>a {
+	background: #2b2928;
+	border-radius: 30px;
+}
+/*#9a5833*/
+header nav#menu-area ul li ul.submenu-1 {
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 0px;
+	top: 60px; 
+	background: #413f3e;
+	border-radius: 5%;
+	width: 120px;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.3s ease-out, visibility 0.1s 0.1s linear;
+}
+
+header nav#menu-area ul li ul.submenu-1 li {
+	border: none;
+	border-bottom: 1px solid #ccc;
+	clear: both;
+	margin-top: -15px;
+	padding: 0;
+	width: 120px;
+	transition: opacity 0.15s 0.15s ease-out, margin 0.3s 0.1s ease-out;
+}
+
+header nav#menu-area ul li:hover ul.submenu-1 {
+	opacity: 1;
+	visibility: visible;
+}
+
+header nav#menu-area ul li:hover ul.submenu-1 li {
+	margin-top: 0;
+	opacity: 1;
+}
+
+div.centro2{
+	margin: 2%;
+	overflow: auto;
+
+}
+div.centro{
+	margin: 2%;
+	width: auto;
+	
+}
+/* Agregar imagen transparente en la parte izquierda del menú */
+header .logo {
+	float: left;
+	margin-right: 60px;
+}
+
+#logoEmpresa {
+	height: 150px;
+
+	margin-left: 17%;
+}
+
+ 
+  
+  /* Pie de página */
+  .footer {
+	background: #6d6b6a;
+	color: #fff;
+	display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+	height: 200px;
+  }
+  #imagenes {
+    display: flex;
+    gap: 100px;  /* Ajusta el espacio entre las imágenes según sea necesario */
+}
+  #redes{
+	width: 30px;
+    height: auto;  
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+table
+{
+	border-color:  #e1ab8a;
+	margin: 0 auto;
+    border-collapse: collapse;
+    width: max-content;
+    table-layout: fixed;
+	color: #ffffff;
+}
+table tr td
+{
+	background-color: #e1ab8a;
+}
+table tr:hover td
+{
+	background-color:  #b6744b;
+	border-color:  #e1ab8a;
+	
+}
+table th
+{
+	background-color: #a7673f;
+}
+
+p{
+	color: black;
+}
+

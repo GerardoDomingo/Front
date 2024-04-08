@@ -1,0 +1,159 @@
+*{
+  margin: 0;
+  padding: 0;
+  width: auto;
+  box-sizing: border-box;
+}
+body{
+  background: #dfe9f5;
+  width: auto;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.d1{
+  width: auto;
+  max-width: 400px;
+  height: auto;
+  padding: 2pc 1pc;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;    
+  text-align: auto;
+  box-shadow: 0 20px 45px rgb(0,0,0,0.3);
+}
+
+.d2{
+  width: auto;
+  max-width: 900px;
+  height: auto;
+  padding: 2pc 1pc;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;    
+  text-align: auto;
+  box-shadow: 0 20px 45px rgb(0,0,0,0.3);
+}
+
+#Politicas{
+  width: 100%;
+  outline: none;
+  border: 1px solid white;
+  border-radius: 20px;
+  background: #e4e4e4;
+  text-align: center;
+  transition: transform 0.3s ease; 
+
+}
+
+h1{
+  font-size: 2pc;
+  margin-bottom: 2pc;
+
+}
+
+form select{
+  
+  width: 100%;
+  outline: none;
+  border: 1px solid #e4e4e4;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+
+  text-align: center;
+  transition: transform 0.3s ease; 
+}
+
+form input{
+  
+  width: 90%;
+  outline: none;
+  border: 1px solid white;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  background: #e4e4e4;
+  text-align: center;
+  transition: transform 0.3s ease; 
+}
+form input:hover{
+  transform: scale(1.1);
+} 
+#b{
+  font-size: 1pc;
+  margin-top: 20px;
+  padding: 10px 0;
+  border-radius: 20px;
+  width: 80%;
+  cursor: pointer;
+  color: white;
+  background: rgb(17,107,143);
+  transition: transform 0.3s ease; 
+}
+input:invalid{
+  color:red;
+}
+input:valid{
+  background-color: #e4e4e4;
+}
+
+img.img23{
+  width: 100px;
+}
+
+.container2{
+  width: auto;
+  max-width: auto;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: hidden;
+}
+/* Estilo del fondo de la ventana de detalles, asegurándose de que todo esté centrado */
+.ventana-detalles-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Asegura que esté sobre otros elementos */
+}
+
+/* Estilos específicos para la ventana de detalles */
+.ventana-detalles {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  position: relative; /* Para posicionar elementos dentro */
+}
+
+/* Ajustar la imagen dentro de la ventana de detalles */
+.ventana-detalles img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover; /* Asegura que la imagen cubra el espacio sin distorsionarse */
+  display: block; /* Quita cualquier alineación inline */
+  margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+/* Botón de cerrar para una mejor experiencia de usuario */
+.ventana-detalles button {
+  display: block;
+  margin: 20px auto; /* Centra el botón debajo de la imagen/descripción */
+}
+
+.ventana-detalles button {
+  display: block;
+  margin: 20px auto; /* Centra el botón debajo de la imagen/descripción */
+}
+
+.ventana-detalles #detalles2{
+  max-width: 500px;
+}
